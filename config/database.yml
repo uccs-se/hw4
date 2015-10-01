@@ -1,0 +1,15 @@
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: projectmanagerv4_test
+  pool: 5
+  username: myapp
+  password: password
+
+development: &development
+  adapter: postgresql
+  encoding: unicode
+  database: projectmanagerv4_development
+  pool: 5
+  username: myapp
+  password: password
