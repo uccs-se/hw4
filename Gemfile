@@ -19,7 +19,7 @@ end
 group :test do
   gem 'simplecov'
 
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails'
 
   gem 'guard'
   gem 'guard-cucumber'
