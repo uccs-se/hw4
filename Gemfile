@@ -17,13 +17,13 @@ group :development, :test do
 end
 
 group :test do
-  gem 'coverage',                      :requre => false
+  gem 'simplecov'
 
-  gem 'cucumber-rails',                :require => false
+  gem 'cucumber-rails'
 
-  gem 'guard',                         :requre => false
-  gem 'guard-cucumber',                :requre => false
-  gem 'guard-rspec',                   :requre => false
+  gem 'guard'
+  gem 'guard-cucumber'
+  gem 'guard-rspec'
 end
 
 group :production do
@@ -36,7 +36,6 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'therubyracer', '~> 0.12.0'
   gem 'sass-rails'
   gem 'coffee-rails'
   gem 'uglifier'
